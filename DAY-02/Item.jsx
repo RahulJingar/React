@@ -1,10 +1,9 @@
-import React from 'react'
+// import React from 'react'
+import './Item.css'
 
 const Item = () => {
   return (
-    <div>
-      Hello World!!!
-    </div>
+   <p className='para'>Hello World</p>
   )
 }
 
