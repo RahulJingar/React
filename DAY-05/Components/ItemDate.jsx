@@ -1,6 +1,6 @@
 function ItemDate(){
     const day = 27;
-    const month = september;
+    const month = "september";
     const year = 1998;
 
     return (<div>
