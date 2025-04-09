@@ -31,7 +31,9 @@ function App() {
 
   return (
     <>
-      <Item name={response[0].itemName}></Item>
+      <Item name={response[0].itemName}>
+        hello how are you guys
+      </Item>
       <Date day={response[0].itemDate} month={response[0].itemMonth} year={response[0].itemYear}></Date>
 
       <Item name={response[1].itemName}></Item>

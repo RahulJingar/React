@@ -1,7 +1,12 @@
 function Item(props){
     const itemName = props.name;
 
-    return (<p>{itemName}</p>)
+    return (
+    <div>
+    <p>{itemName}</p>
+    {props.children}
+    </div>
+    )
 }
 
 export default Item;
