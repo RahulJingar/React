@@ -44,7 +44,7 @@ function App() {
 
   return (
     <>
-    <NewProduct pranay = {printProductData}/>
+    <NewProduct print = {printProductData}/>
       <Products items={products}/>
     </>
   )

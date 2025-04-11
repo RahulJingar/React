@@ -6,7 +6,7 @@ function NewProduct(props){
         console.log("i am inside new product");
         console.log(product);
 
-        props.pranay(product);
+        props.print(product);
     }
 
     return <div>

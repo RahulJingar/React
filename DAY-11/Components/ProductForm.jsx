@@ -6,32 +6,14 @@ function ProductForm(props) {
     const [newTitle, SetTitle] = useState('');
     const [newDate, setDate] = useState('');
 
-
-    const [fullProductInput, setfullProductInput] = useState({
-      title:'',
-      date:''
-    });
-
-
     function titleChangeHandler(event){
-      // let obj =  {...prevState, title:event.target.value};
-      // console.log(obj);
-      // return obj;
-
        SetTitle(event.target.value);
-      //  console.log(event.target.value);
     }
 
     function dateChangeHandler(event){
-
-
         setDate(event.target.value);
-        // console.log(event.target.value);
-        // // console.log("printing");
-        // console.log(title);
-        // console.log(Date);
     }
-
+    
    function submitHandler(event){
     event.preventDefault()
 
@@ -40,15 +22,12 @@ function ProductForm(props) {
         date:newDate,
         
       };
-      // console.log(productData)
       props.onSaveProduct(productData);
       
          SetTitle('');
          setDate('');
    }
     
-
-
   return (
     <form className="max-w-md mx-auto bg-white p-6 rounded-2xl shadow-md space-y-6" onSubmit={submitHandler}>
       <div className="flex flex-col">
