@@ -56,6 +56,7 @@ body{
 
 .tour-info{
   margin: 20px 5px;
+  /* margin-top: 25px; */
 }
 
 .tour-price{
@@ -105,4 +106,18 @@ body{
   color: black;
   background-color: white;
   transition: all 0.2s;
+}
+
+.tour-details{
+  margin-top: 15px;
+}
+
+.tour-name{
+  margin-top: 8px;
+}
+
+.description{
+  margin-top: 10px;
+  opacity: 0.70;
+
 }
