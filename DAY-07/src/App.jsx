@@ -19,7 +19,7 @@ const name = "Hari Mohan"
 
       <Item name="Rahul"></Item>
       <Date day="27" month="September" year="1998"></Date>
-     
+     <h1 className='bg-red-400'>hello</h1>
     </div>
   )
 }
