@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../componts/Navbar'
-import Footer from '../componts/Footer'
-import Returns from '../componts/Returns'
+import Navbar from '../Components/Navbar'
+import Footer from '../Components/Footer'
+import Returns from '../Components/Returns'
 const ReturnsPage = () => {
   return (
     <div>

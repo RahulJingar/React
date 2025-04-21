@@ -1,13 +1,13 @@
 import React from "react";
-import Navbar from "../componts/Navbar";
-import Wishlist from "../componts/Wishlist";
-import Footer from "../componts/Footer";
+import Navbar from "../Components/Navbar";
+import WishList from "../Components/WishList";
+import Footer from "../Components/Footer";
 
 const WishListPage = () => {
   return (
     <div className="bg-blue-100">
       <Navbar/>
-      <Wishlist />
+      <WishList />
       <Footer />
     </div>
   );

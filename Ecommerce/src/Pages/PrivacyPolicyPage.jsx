@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../componts/Navbar";
-import Footer from "../componts/Footer";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 const PrivacyPolicyPage = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../componts/Navbar'
-import OrderTracking from '../componts/OrderTracking'
-import Footer from '../componts/Footer'
+import Navbar from '../Components/Navbar'
+import OrderTracking from '../Components/OrderTracking'
+import Footer from '../Components/Footer'
 const OrderTrackingPage = () => {
   return (
     <div>

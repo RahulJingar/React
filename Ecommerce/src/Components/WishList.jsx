@@ -1,5 +1,5 @@
 import React from "react";
-import Cards from "./Card";
+import Card from "./Card";
 
 const WishList = () => {
   return (
@@ -9,12 +9,12 @@ const WishList = () => {
           <h2 className="text-2xl font-bold text-gray-800 mb-6">My Wishlist</h2>
           {/* Wishlist Items */}
           <div className="flex flex-wrap gap-3 p-5 mb space-x-8">
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
           </div>
         </div>
       </section>

@@ -1,7 +1,7 @@
 import React from "react";
-import Footer from "../componts/Footer";
-import Navbar from "../componts/Navbar";
-import Cards from "../componts/Card";
+import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
+import Card from "../Components/Card";
  
 const Mobiles = () => {
   return (
@@ -152,9 +152,9 @@ const Mobiles = () => {
           {/* Products Grid */}
           <div className="mx-auto px-4 py-10">
             <div className="flex flex-wrap gap-8">
-              <Cards />
-              <Cards />
-              <Cards />
+              <Card />
+              <Card />
+              <Card />
             </div>
           </div>
         </div>

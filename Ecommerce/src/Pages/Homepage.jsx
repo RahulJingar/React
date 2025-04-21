@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from '../componts/Navbar'
-import HeroSection from '../componts/HeroSection';
-import IconsCard from '../componts/IconsCard';
-import Card from '../componts/Card';
-import Benar from '../componts/benar';
-import Footer from '../componts/Footer';
-
+import Navbar from '../Components/Navbar';
+import HeroSection from '../Components/HeroSection';
+import IconsCard from '../Components/IconsCard';
+import Card from '../Components/Card';
+import Banner from '../Components/Banner';
+import Footer from '../Components/Footer';
 
 const Homepage = () => {
   return (
@@ -20,7 +19,7 @@ const Homepage = () => {
           <Card/>
         </div>
       </div>
-      <Benar/>
+      <Banner/>
       <IconsCard/>
       <Footer/>
        <IconsCard/>

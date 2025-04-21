@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 
 // import HomePage from "./Pages/HomePage.jsx";
-import ProductDesc from "./Pages/ProductDesc.jsx";
+import ProductDesc from "./Pages/ProductDescription.jsx";
 import LoginPage from "./Pages/LoginPage.jsx";
 import SignupPage from "./Pages/SignupPage.jsx";
 import Checkout from "./Pages/CheckOut.jsx";
@@ -15,7 +15,7 @@ import ContactUsPage from "./Pages/ContactPage.jsx";
 import OrderTackingPage from "./Pages/OrderTackingPage.jsx";
 import PrivacyPolicyPage from "./Pages/PrivacyPolicyPage.jsx";
 import TermsAndConditionPage from "./Pages/TermsOfService.jsx";
-import Homepage from "./Pages/Homepage.jsx";
+import Homepage from "./Pages/HomePage.jsx";
 
 const App = () => {
   return (

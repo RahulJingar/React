@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../componts/Navbar'
-import Footer from '../componts/Footer'
-import FAQ from '../componts/FAQ'
+import Navbar from '../Components/Navbar'
+import Footer from '../Components/Footer'
+import FAQ from '../Components/FAQ'
 const FAQPage = () => {
   return (
     <div>

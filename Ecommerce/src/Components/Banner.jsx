@@ -1,6 +1,6 @@
 import React from 'react'
  
- const Benar = () => {
+ const Banner = () => {
    return (
      <div>
        <section className="relative bg-gradient-to-r from-indigo-50 to-white overflow-hidden">
@@ -27,4 +27,4 @@ import React from 'react'
    )
  }
  
- export default Benar
+ export default Banner
