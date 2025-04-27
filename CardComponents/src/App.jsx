@@ -19,7 +19,6 @@ async function fetchData() {
     let response = await fetch(apiUrl)
     let output = await response.json();
 
-    //output:-
     setCourses(output.data);
 
   }
