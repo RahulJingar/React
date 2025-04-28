@@ -36,8 +36,42 @@ const reviews = [
         name: "Mayank Panwar",
         job: "Mern Full Stack Developer",
         image: "https://media.licdn.com/dms/image/v2/D4D03AQHOGfrXbr8uXg/profile-displayphoto-shrink_800_800/B4DZTL4DB.HYAc-/0/1738587257319?e=1751500800&v=beta&t=zgdLV-VN8LuY_Hb1wzwbQVuGJne4uihWP6FZ4wDdnHs",
-        text: "A React Master is an expert in React, a popular JavaScript library for building user interfaces. They possess in-depth knowledge of React's core concepts, such as components, state management, props, and lifecycle methods. With expertise in React Hooks, Context API, and Redux, they craft efficient, scalable, and maintainable front-end applications. A React Master stays updated with the latest React features, best practices, and ecosystem tools, enabling them to deliver high-performance and visually appealing user interfaces."
+        text: "A React Master is an expert in React, a popular JavaScript library for building user interfaces. They possess in-depth knowledge of React's core concepts, such as components, state management, props, and lifecycle methods. With expertise in React Hooks, Context API, and Redux, they craft efficient, scalable, and maintainable front-end applications."
     },
+
+    {
+        id: 6,
+        name: "Jyoti Yadav",
+        job: "Business & Data Analyst",
+        image: "https://media.licdn.com/dms/image/v2/D4D03AQHSXKpo3QL6MQ/profile-displayphoto-shrink_800_800/B4DZYy8uPSH4As-/0/1744611501769?e=1751500800&v=beta&t=xf7JyHZJIybkDj3kcqfrDXU2vOciUaAWmFtMFPkoIac",
+        text: "A Business & Data Analyst bridges the gap between business needs and data-driven insights. They collect, analyze, and interpret complex data to inform business decisions, identify trends, and optimize processes. By leveraging tools like Excel, SQL, and data visualization software, they transform data into actionable recommendations, driving business growth and efficiency."
+    },
+
+    {
+        id: 7,
+        name: "Harimohan Meena",
+        job: "Income Tax Officer",
+        image: "https://media.licdn.com/dms/image/v2/D5603AQExxfZTMYyrZw/profile-displayphoto-shrink_800_800/B56ZXyrAZ3GoAc-/0/1743533116672?e=1751500800&v=beta&t=wL0wkma7ZbhAoZeCuCQOzZcwk2a6GH8lxGXl-1cSvKA",
+        text: "An Income Tax Officer is a government official responsible for administering and enforcing tax laws, assessing and collecting income taxes, conducting audits, and ensuring tax compliance, while providing taxpayer guidance and support to promote revenue collection and fair taxation practices."
+    },
+
+    {
+        id: 8,
+        name: "Vivek Sisodiya",
+        job: "Home Loan Department",
+        image: "https://media.licdn.com/dms/image/v2/D5603AQGWSn4Ch3Osrw/profile-displayphoto-shrink_800_800/B56ZS78QXEGsAc-/0/1738319923325?e=1751500800&v=beta&t=z196RSgGM4fBH-wsPYZPT89-z-ZDrnpKvlvQ_E25318",
+        text: "A Home Loan Department processes and manages mortgage loan applications, evaluating creditworthiness, verifying documentation, and approving loan amounts, while providing customer support and loan servicing to facilitate home financing for individuals and families."
+    },
+
+    {
+        id: 9,
+        name: "Yashu Sharma",
+        job: "Mern Full Stack Developer",
+        image: "",
+        text: "A React Master is an expert in React, a popular JavaScript library for building user interfaces. They possess in-depth knowledge of React's core concepts, such as components, state management, props, and lifecycle methods. With expertise in React Hooks, Context API, and Redux, they craft efficient, scalable, and maintainable front-end applications."
+    },
+
+
 ];
 
 export default reviews
