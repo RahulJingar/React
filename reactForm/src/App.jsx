@@ -28,7 +28,7 @@ function App() {
 
 
  function changeHandler(event){
-  const {name, value, checked, type} = event.target
+  const {name, value, checked, type} = event.target;
    setFormData(prevFormData => {
      return {
        ...prevFormData,
@@ -46,7 +46,7 @@ function submitHandler(event){
 
 function previewHandler() {
   setShowPreviewModal(true);
-}
+} 
 
 function closePreviewModal() {
   setShowPreviewModal(false);
@@ -279,7 +279,7 @@ className='mr-2 leading-tight' />
 
   <div className='mt-6 flex justify-between items-center'>
   <button type="submit" className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'>Save</button>
-  {showPreviewButton && (
+  {showPreviewButton (
     <button
       type="button"
       onClick={previewHandler}
