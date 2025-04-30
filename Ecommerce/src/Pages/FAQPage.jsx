@@ -5,9 +5,9 @@ import FAQ from '../Components/FAQ'
 const FAQPage = () => {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <FAQ/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

@@ -5,9 +5,9 @@ import Footer from '../Components/Footer'
 const OrderTrackingPage = () => {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <OrderTracking/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

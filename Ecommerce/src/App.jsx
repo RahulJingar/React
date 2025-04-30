@@ -16,25 +16,36 @@ import OrderTackingPage from "./Pages/OrderTackingPage.jsx";
 import PrivacyPolicyPage from "./Pages/PrivacyPolicyPage.jsx";
 import TermsAndConditionPage from "./Pages/TermsOfService.jsx";
 import Homepage from "./Pages/HomePage.jsx";
+import MainLayout from "./Layout/MainLayout.jsx";
+import ProductProvider from "./services/ProductContextApi.jsx";
 
 const App = () => {
   return (
     <Router>
+      <ProductProvider>
+
       <Routes>
-        <Route path="/home" element={<Homepage />} />
-        <Route path="/product" element={<ProductDesc />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route path="/check" element={<Checkout />} />
         <Route path="/signup" element={<SignupPage />} />
-        <Route path="/wishlist" element={<WishListPage />} />
-        <Route path="/mobiles" element={<MobilesPage />} />
-        <Route path="/returns" element={<ReturnsPage />} />
-        <Route path="/faqs" element={<FAQPage />} />
-        <Route path="/contact" element={<ContactUsPage />} />
-        <Route path="/ordertracking" element={<OrderTackingPage />} />
-        <Route path="/privacy" element={<PrivacyPolicyPage />} />
-        <Route path="/termsandcondition" element={<TermsAndConditionPage />} />
+
+        <Route element={<MainLayout />}>
+          <Route path="/home" element={<Homepage />} />
+          <Route path="/product" element={<ProductDesc />} />
+          <Route path="/check" element={<Checkout />} />
+          <Route path="/wishlist" element={<WishListPage />} />
+          <Route path="/mobiles" element={<MobilesPage />} />
+          <Route path="/returns" element={<ReturnsPage />} />
+          <Route path="/faqs" element={<FAQPage />} />
+          <Route path="/contact" element={<ContactUsPage />} />
+          <Route path="/ordertracking" element={<OrderTackingPage />} />
+          <Route path="/privacy" element={<PrivacyPolicyPage />} />
+          <Route
+            path="/termsandcondition"
+            element={<TermsAndConditionPage />}
+          />
+        </Route>
       </Routes>
+      </ProductProvider>
     </Router>
   );
 };

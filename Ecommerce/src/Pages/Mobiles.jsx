@@ -6,7 +6,7 @@ import Card from "../Components/Card";
 const Mobiles = () => {
   return (
     <div className="bg-gray-100">
-      <Navbar />
+      {/* <Navbar /> */}
       <section className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row gap-8">
           {/* Filters Sidebar */}
@@ -159,7 +159,7 @@ const Mobiles = () => {
           </div>
         </div>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

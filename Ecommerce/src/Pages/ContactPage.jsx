@@ -5,9 +5,9 @@ import Contact from '../Components/Contact'
 const ContactPage = () => {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Contact/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   ) 
 }

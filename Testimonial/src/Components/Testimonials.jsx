@@ -25,10 +25,7 @@ const Testimonials = (props) => {
       }
     }
 
-    function surpriceHandler(){
-      let randomIndex = Math.floor(Math.rondom() * reviews.length);
-      setIndex(randomIndex);
-    }
+   
 
   return (
     <div className='w-[85vw] md:w-[700px] rounded-2xl bg-white flex flex-col justify-center h-[500px] items-center mt-10 p-10 transition-all duration-700 hover:shadow-2xl ml-[450px] mt-[75px]'>
@@ -49,7 +46,6 @@ const Testimonials = (props) => {
           </div>
           <div>
         <button
-        onClick={surpriceHandler}
         className='bg-violet-400 mt-6 hover:bg-violet-500 transition-all duration-200 cursor-pointer px-10 py-2 rounded-md font-bold text-lg'>
             Surprice Me
         </button>

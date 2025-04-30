@@ -6,9 +6,9 @@ import Footer from '../Components/Footer'
 const CheckOut = () => {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <AddToCart/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

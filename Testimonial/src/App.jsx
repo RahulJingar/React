@@ -12,7 +12,10 @@ function App() {
     <div className='text-center'>
  <h1 className='text-3xl text-bold mt-8'>Our Testimonials</h1>
  <div className='h-[4px] w-[1/5] mt-1 w-16 bg-violet-400 mx-auto'></div>
+ 
 <Testimonials reviews = {reviews}/>
+
+ 
  </div>
 </div>
  );

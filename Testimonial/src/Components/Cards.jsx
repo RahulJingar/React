@@ -7,7 +7,7 @@ const Cards = (props) => {
      
   return (
     <div className='flex flex-col md:relative'>
-      <div className='absolute top-[-7rem] z-[10] mx-auto'>
+      <div className='absolute top-[-7rem] z-[10] mx-auto '>
         <img
         className='aspect-square rounded-full w-[140px] h-[140px] z-25'
         src={review.image}/>
@@ -15,7 +15,7 @@ const Cards = (props) => {
       </div>
 
 
-    <div className='text-center mt-7'>
+    <div className='text-center mt-7 '>
         <p className='font-bold text-2xl capitalize tracking-wider'>{review.name}</p>
     </div>
 

@@ -9,7 +9,7 @@ import Footer from '../Components/Footer';
 const Homepage = () => {
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/> */}
       <HeroSection/>
       <div className='p-8 font-bold text-2xl'>
         <h1>New Products</h1>
@@ -24,7 +24,7 @@ const Homepage = () => {
       <Footer/>
        <IconsCard/>
       <HeroSection/>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }

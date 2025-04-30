@@ -6,9 +6,9 @@ import Footer from "../Components/Footer";
 const WishListPage = () => {
   return (
     <div className="bg-blue-100">
-      <Navbar/>
+      {/* <Navbar/> */}
       <WishList />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

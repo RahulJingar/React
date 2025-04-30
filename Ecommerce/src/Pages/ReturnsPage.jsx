@@ -5,9 +5,9 @@ import Returns from '../Components/Returns'
 const ReturnsPage = () => {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Returns/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }
