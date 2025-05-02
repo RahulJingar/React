@@ -9,7 +9,7 @@ const ProductProvider = ({children}) => {
         async function getP() {
             try {
               const response = await fetch(
-                "https://gist.github.com/prajjaldhar/86e071452fa780c20d1b4e2ac7a0d80f"
+                "https://gist.githubusercontent.com/Mayank7677/27552c8d61b2aea4514ce65c386cebe7/raw/a4206a4e44adfc1170d8679a0e534a0f9e0b248b/productData.json"
               );
               if (response.ok) {
 
