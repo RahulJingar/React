@@ -23,6 +23,7 @@ const ProductProvider = ({children}) => {
               console.error("Error:", error);
             }
           }
+          console.log("use effect hu main ")
           getP();
     },[]
    )

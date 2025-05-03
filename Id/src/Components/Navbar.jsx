@@ -20,7 +20,7 @@ const Navbar = (props) => {
 
      <nav>
 
-            <ul className='gap-x-6 flex text-white'>
+            <ul className='gap-x-6 flex text-white bg-black'>
                 <li>
                     <Link to="/home">Home</Link>
                 </li>
@@ -43,7 +43,7 @@ const Navbar = (props) => {
 
                         {!IsLoggedIn && 
                             <Link to="/login">
-                            <button className='bg-black text-white py-[8px] px-[12px] rounded-[8px] border border-blue-700'>
+                            <button className='bg-black text-blue-900 py-[8px] px-[12px] rounded-[8px] border border-blue-700'>
                                 Log in
                                 </button>
                         </Link>
@@ -51,7 +51,7 @@ const Navbar = (props) => {
 
                        { !IsLoggedIn && 
                         <Link to="/SignUp">
-                            <button className='bg-black text-white py-[8px] px-[12px] rounded-[8px] border border-blue-700'>
+                            <button className='bg-black text-blue-900 py-[8px] px-[12px] rounded-[8px] border border-blue-700'>
                                 Sign Up
 
                             </button>
@@ -66,7 +66,7 @@ const Navbar = (props) => {
                                 setIsLoggedIn(false)
                                 toast.success("logged Out")
                             }}
-                             className='bg-black text-white py-[8px] px-[12px] rounded-[8px] border border-blue-700'
+                             className='bg-black text-blue-950 py-[8px] px-[12px] rounded-[8px] border border-blue-700'
                             >Log Out</button>
                         </Link>
                         }
@@ -74,7 +74,7 @@ const Navbar = (props) => {
                         {IsLoggedIn && 
                         <Link to="/dashboard">
                             <button
-                             className='bg-black text-white py-[8px] px-[12px] rounded-[8px] border border-blue-700'
+                             className='bg-black text-blue-950 py-[8px] px-[12px] rounded-[8px] border border-blue-700'
                             >DashBoard</button>
                         </Link>
                         }
